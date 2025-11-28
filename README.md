@@ -37,9 +37,4 @@ it for your customers simple edit `config.json` so that `"featureManagerIsFullZo
 ### Uninstalling the cPanel Plugin
 
 An uninstall script has been provided to unregister the plugin with cPanel and remove all Cloudflare specific files from the server to deactivate the plugin.
-
-NOTE: This will not remove zones or users from Cloudflare that have been registered through the plugin.
-
-The following set of commands will download the necessary files, execute the uninstall script and ultimately remove the uninstall script as well:
-
-`bash <(curl -s https://raw.githubusercontent.com/cloudflare/CloudFlare-CPanel/master/cloudflare.uninstall.sh) && rm -f cloudflare.uninstall.sh`
+cpanel.familytimenet.com

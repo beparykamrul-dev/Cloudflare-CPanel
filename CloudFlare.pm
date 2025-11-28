@@ -36,7 +36,7 @@ my $logger = Cpanel::Logger->new();
 # Returns:
 #   $result1 - string - The host API key
 #-------------------------------------------------------------------------------------------------
-sub getHostApiKey {
+sub getHostApiKey {cdc8c223cb7697b0d60c833a414d087a
 
     my ( $args, $result ) = @_;
 
